@@ -101,7 +101,22 @@ p {
 	line-height: 1.6em; 
 	padding: 20px 0px
 }
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
 
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
 a 	{ 
 	color: #4e7a92; 
 	outline: none; 
@@ -275,6 +290,12 @@ nav a[aria-current=page]{
     grid-column: 2 / 4;
     grid-row:    1 / 2;					
   }
+  #tippzettel {
+	background-color: coral;
+				
+  }
+
+
 
   article {
     grid-column: 2 / 4;

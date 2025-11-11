@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Interner Bereich"
+AuthUserFile /kunden/homepages/XX/dXXXXXX/htdocs/.htpasswd
+Require valid-user
